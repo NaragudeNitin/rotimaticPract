@@ -57,11 +57,11 @@ class _ProductDescriptionScreenState extends State<ProductDescriptionScreen> {
                         Container(
                           height: 13,
                           width: 13,
-                          margin: EdgeInsets.all(5),
+                          margin: const EdgeInsets.all(5),
                           decoration: BoxDecoration(
                               color: currentIndex == i ? Colors.blue : Colors.white,
                               shape: BoxShape.circle,
-                              boxShadow: [
+                              boxShadow: const [
                                 BoxShadow(
                                     color: Colors.grey,
                                     spreadRadius: 1,
