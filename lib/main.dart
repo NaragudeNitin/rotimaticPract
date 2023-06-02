@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rotimatic_p1/views/home_page.dart';
+import 'package:rotimatic_p1/views/shop/shop_screen.dart';
 
-import 'views/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       // home: const HomePage(),
-      home: const LoginPage(),
+      home: const ShopScreen(),
     );
   }
 }

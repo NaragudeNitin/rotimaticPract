@@ -2,11 +2,13 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:rotimatic_p1/commom_widget/common_colors.dart';
+import 'package:rotimatic_p1/themes/common_colors.dart';
 import 'package:rotimatic_p1/commom_widget/custum_text.dart';
 import 'package:rotimatic_p1/screen_constants/screen_constants.dart';
 import 'package:rotimatic_p1/themes/common_strings.dart';
 import 'package:rotimatic_p1/views/otp_screen.dart';
+
+import 'homepage_widets/button_container.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -176,26 +178,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     );
                   },
-                  child: Container(
-                    height: ScreenConstant.size50,
-                    width: ScreenConstant.screenWidthFull,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(32),
-                      color: AppColors.primarycolor,
-                    ),
-                    child: const Center(
-                      child: Text(
-                        "Send OTP",
-                        style: TextStyle(
-                          color: AppColors.colorBlackShade3,
-                          fontFamily: 'Montserrat',
-                          fontStyle: FontStyle.normal,
-                          fontWeight: FontWeight.w600,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ),
+                  child: ButtonWidget(text:'Login'),
                 ),
               ),
               const Center(

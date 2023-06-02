@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rotimatic_p1/commom_widget/common_colors.dart';
+import 'package:rotimatic_p1/themes/common_colors.dart';
 import 'package:rotimatic_p1/screen_constants/screen_constants.dart';
 
 class CustomText extends StatelessWidget {
